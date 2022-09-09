@@ -1,0 +1,65 @@
+.main-box{
+   min-height: 100px;
+  padding: 30px 50px !important;
+  background-image: linear-gradient(to top right, rgba(233, 247, 248, 0.836),rgb(221, 214, 252));
+}
+.remove-cls{
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 18px;
+  text-decoration: none;
+ float: right !important;
+}
+.badge.bg-success{
+  background-color: #F39C12 !important;
+}
+
+.remove-cls:hover {
+    background-color: rgba(245, 65, 65, 0.884);
+    color: white;
+  }
+.nav-link{
+cursor: pointer;
+}
+.navbar .nav-item .nav-link:hover{
+  color: #21618C  !important;
+  background-color: #AED6F1 !important;
+}
+
+
+.navbar .nav-item  a{
+  color: #3498DB;
+}
+
+.main-cls {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.todo-input {
+  padding: 10px 18px;
+  font-size: 14px; 
+  margin: auto;
+}
+.border-box{
+  border: 2px solid #21618C;
+  border-radius: 5px;
+}
+/* .all {
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+} */
