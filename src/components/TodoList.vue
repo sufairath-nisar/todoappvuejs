@@ -39,8 +39,8 @@
             <div v-for="(todo, index) in todosFiltered" :key="todo.id" >
               <div class="row pb-3">
                 <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-8">
-                  <input  type="checkbox"  class="checkbox me-2" v-model="todo.completed" >
-                  <label>{{ todo.title }}</label>
+                  <label><input  type="checkbox"  class="checkbox me-2" v-model="todo.completed" >
+                 {{ todo.title }}</label>
                 </div>
             
               <!--Delete-->
